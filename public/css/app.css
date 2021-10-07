@@ -1,0 +1,40 @@
+:root{
+ --main-color:#0096c7;
+}
+
+/* body{
+    font-family: 'Roboto', sans-serif;
+} */
+
+main{
+    margin-top: 4rem;
+}
+.card{
+    margin:10px auto;
+    text-align: center;
+}
+.card img{
+    padding: 8px;
+    height: 220px;
+}
+.btn-outline-primary{
+   color: var(--main-color);
+}
+.btn-outline-primary:hover{
+    background-color: var(--main-color);
+ }
+ h5 i{
+     font-size: 0.89rem;
+     margin-right: 5px;
+ }
+ .show-card{
+     width: 32rem;
+ }
+ .show-card img{
+    height: 20rem;
+}
+ @media screen and (max-width:400px){
+     .show-card{
+         width:100%;
+     }
+ }

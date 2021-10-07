@@ -1,0 +1,43 @@
+<%- include("../partials/header") %>
+    <%- include("../partials/navbar") %>
+
+        <main>
+            
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                        <h1 class="display-3">Sign up</h1>
+                        <%- include("../partials/flash") %> 
+                        <form action="/register" method="POST">
+                            
+                            <div class="mb-3">
+                                <label class="form-label" for="username">Username</label>
+                                <input type="text" class="form-control" name="username" id="username" placeholder="Choose your Username">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="password">Password</label>
+                                <input class= "form-control" type="password" name="password" id="password" placeholder="Please Enter your password">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="email">Email</label>
+                                <input class="form-control" type="email" name="email" id="email" placeholder="Enter your email">
+                            </div>
+                          
+                            <button class="btn btn-success">Sing Up</button>
+
+
+
+
+
+                        </form>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+
+
+
+        </main>
+        <%-include("../partials/footer") %>
